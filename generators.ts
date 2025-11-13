@@ -1,5 +1,5 @@
 Blockly.Python['import_hello'] = function(block) {
-    var code = 'import hello\n';
+    var code = 'from hello import *\n';
     return code;
 };
 
