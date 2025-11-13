@@ -1,4 +1,4 @@
-const helloColor = "#4dcad1";
+const helloColor = "#bb79b0";
 
 Blockly.Blocks['import_hello'] = {
     init: function() {
