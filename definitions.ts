@@ -3,7 +3,7 @@ const helloColor = "#4dcad1";
 Blockly.Blocks['import_hello'] = {
     init: function() {
       this.appendDummyInput()
-          .appendField("from hello import *");
+          .appendField("import hello");
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
       this.setColour(helloColor);
