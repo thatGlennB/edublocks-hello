@@ -20,10 +20,10 @@ Blockly.Blocks['hello_sayhello'] = {
     }
 }; 
 
-Blockly.Blocks['hello_stempel'] = {
+Blockly.Blocks['hello_speak'] = {
     init: function() {
         this.appendDummyInput()
-          .appendField("hello.stempel(");
+          .appendField("hello.speak(");
         this.appendValueInput("parameters")
           .setCheck(null);
         this.appendDummyInput()

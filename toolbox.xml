@@ -5,5 +5,5 @@
 
     <block type="hello_sayhello"></block>
     
-    <block type="hello_stempel"></block>
+    <block type="hello_speak"></block>
 </category>
