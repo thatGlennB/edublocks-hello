@@ -24,8 +24,10 @@ Blockly.Blocks['hello_speak'] = {
     init: function() {
         this.appendDummyInput()
           .appendField("speak(");
-        this.appendValueInput("parameters").setCheck(null);
-        this.appendDummyInput().AppendField(")");
+        this.appendValueInput("parameters")
+          .setCheck(null);
+        this.appendDummyInput()
+          .appendField(")");
         this.setInputsInline(true);
         this.setPreviousStatement(true, null);
         this.setNextStatement(true, null);
