@@ -1,4 +1,4 @@
-def sayhello():
+def say_hello():
   print("hello")
-def speak(message):
-  print(message)
+def speak(msg):
+  print(msg)
