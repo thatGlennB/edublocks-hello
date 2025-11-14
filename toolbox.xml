@@ -1,4 +1,4 @@
-<category name="Hello" colour="#bb79b0" css-icon="fas fa-cloud">
+<category name="Hello" colour="#bb79b0" css-icon="fad fa-cloud">
     <label text="Hello"></label>
 
     <block type="import_hello"></block>
