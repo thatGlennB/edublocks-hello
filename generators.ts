@@ -9,7 +9,5 @@ Blockly.Python['hello_sayhello'] = function(block) {
 };
 
 Blockly.Python['hello_speak'] = function(block) {
-    var params = Blockly.Python.valueToCode(block, "parameters",0);
-    var code = `speak(${params})\n`;
-    return code;
+    return `speak(${Blockly.Python.valueToCode(block, "parameters",0)})\n`;
 };
