@@ -8,6 +8,6 @@ Blockly.Python['hello_sayhello'] = function(block) {
     return code;
 };
 
-Blockly.Python['hello_speak'] = function(block) {
-    return `hello.speak(${Blockly.Python.valueToCode(block, "parameters",0)})\n`;
+Blockly.Python['hello_stempel'] = function(block) {
+    return `hello.stempel(${Blockly.Python.valueToCode(block, "parameters",0)})\n`;
 };

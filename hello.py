@@ -1,7 +1,5 @@
 def say_hello():
   print("hello")
-  pass
 
-def speak(msg):
+def stempel(msg):
   print(msg)
-  pass
