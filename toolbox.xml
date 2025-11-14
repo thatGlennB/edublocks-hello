@@ -4,4 +4,5 @@
     <block type="import_hello"></block>
 
     <block type="hello_sayhello"></block>
+    <block type="hello_speak"></block>
 </category>
