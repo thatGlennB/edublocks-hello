@@ -5,5 +5,16 @@
 
     <block type="hello_sayhello"></block>
     
-    <block type="hello_speak"></block>
+    <block type="hello_speak">
+        <value name="parameters">
+            <shadow type="parameters">
+                <mutation color="#bb79b0" items="1" minimum="1" limit="1" inputType="text" />
+                <value name="input_1">
+                    <shadow type="inline_text">
+                        <field name="value">"hello"</field>
+                    </shadow>
+                </value>
+            </shadow>
+        </value>
+    </block>
 </category>
